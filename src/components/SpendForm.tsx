@@ -78,7 +78,7 @@ const SpendForm: React.FC = () => {
             value={formData.primaryUseCase}
             onChange={(e) => setFormData({...formData, primaryUseCase: e.target.value})}
           >
-            {/* Fix: statuc ki jagah uc use kiya hai */}
+      
             {USE_CASES.map(uc => <option key={uc} value={uc}>{uc}</option>)}
           </select>
         </div>
@@ -110,7 +110,7 @@ const SpendForm: React.FC = () => {
               {AI_TOOLS[currentTool as keyof typeof AI_TOOLS].map(p => <option key={p} value={p}>{p}</option>)}
             </select>
           </div>
-          {/* Naya Section: Number of Seats */}
+         
           <div>
             <label className="text-[10px] font-black text-gray-400 uppercase">Seats</label>
             <input 

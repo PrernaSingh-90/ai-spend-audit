@@ -2,10 +2,9 @@ import SpendForm from './components/SpendForm';
 
 function App() {
   return (
-    // Background color aur font setup
     <div className="min-h-screen bg-slate-50 font-sans selection:bg-blue-100">
       
-      {/* 1. Header (Branding matters for Credex!) */}
+      {/* 1. Header  */}
       <header className="max-w-5xl mx-auto pt-16 pb-8 px-6 text-center">
         <div className="inline-block px-4 py-1.5 bg-blue-600 text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-full mb-4 shadow-lg shadow-blue-200">
           Credex Assignment • Round 1
@@ -18,7 +17,7 @@ function App() {
         </p>
       </header>
 
-      {/* 2. Main Content (SpendForm Yahan Dikhega) */}
+      {/* 2. Main Content  */}
       <main className="pb-24 px-6">
         <SpendForm />
       </main>
