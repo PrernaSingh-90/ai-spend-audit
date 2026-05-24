@@ -29,3 +29,17 @@
 - Deciding on the most intuitive way to visualize the "Savings Hero" section on the results page.
 **Plan for tomorrow:** 
 - Build the "Audit Results Page" dashboard and start integrating the AI-generated personalized summary.
+
+## Day 3 — 2026-05-24
+**Hours worked:** 4
+**What I did:** 
+- Built the "Audit Results Dashboard" with a high-impact Hero section showing annual savings.
+- Implemented the per-tool breakdown UI with conditional color coding (Optimal vs. Savings).
+- Designed the "Credex Prominent Surface" for users saving >$500/mo.
+- Drafted the AI prompt strategy in `PROMPTS.md`.
+**What I learned:** 
+- Visual hierarchy is key for "sharable" audits. Using a dark-themed dashboard makes the green "Savings" numbers pop.
+**Blockers / what I'm stuck on:** 
+- Handling Anthropic API rate limits for the free tier credits.
+**Plan for tomorrow:** 
+- Set up Lead Capture with Supabase/Firebase and implement the transactional email confirmation.
