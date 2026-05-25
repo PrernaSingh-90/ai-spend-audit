@@ -43,3 +43,18 @@
 - Handling Anthropic API rate limits for the free tier credits.
 **Plan for tomorrow:** 
 - Set up Lead Capture with Supabase/Firebase and implement the transactional email confirmation.
+
+## Day 4 — 2026-05-25
+**Hours worked:** 4
+**What I did:** 
+- Set up Supabase as a real backend for lead capture and audit storage.
+- Developed the `LeadCapture.tsx` component with an email gate to monetize value before sharing.
+- Implemented unique URL generation using UUIDs from the database.
+- Added basic abuse protection logic for the form submission.
+**What I learned:** 
+- Learned how to handle JSONB data types in PostgreSQL via Supabase for storing complex audit results.
+**Blockers / what I'm stuck on:** 
+- Configuring Open Graph (OG) tags dynamically for individual shareable URLs.
+**Plan for tomorrow:** 
+- Complete the 3 user interviews and fill `USER_INTERVIEWS.md`.
+- Finalize the `ARCHITECTURE.md` with system diagrams.

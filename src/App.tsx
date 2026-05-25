@@ -1,7 +1,8 @@
+import { useState } from "react";
 import SpendForm from "./components/SpendForm";
 import ResultsDashboard from "./components/ResultsDashboard";
 import { runAudit, type AuditResult } from "./utils/AuditEngine";
-import { useState } from "react";
+import LeadCapture from "./components/LeadCapture";
 
 function App() {
   const [results, setResults] = useState<AuditResult[] | null>(null);
@@ -53,6 +54,7 @@ function App() {
         {results && (
           <div className="animate-in fade-in slide-in-from-bottom-10 duration-700">
             <ResultsDashboard results={results} />
+            <LeadCapture auditData={results}/>
           </div>
         )}
       </main>
