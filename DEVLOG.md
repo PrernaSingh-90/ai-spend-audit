@@ -58,3 +58,15 @@
 **Plan for tomorrow:** 
 - Complete the 3 user interviews and fill `USER_INTERVIEWS.md`.
 - Finalize the `ARCHITECTURE.md` with system diagrams.
+
+## Day 5 — 2026-05-26
+**Hours worked:** 3
+**What I did:** 
+- Finalized `ARCHITECTURE.md` with system diagrams and scalability plans.
+- Drafted the `GTM.md` strategy based on real-world insights from LinkedIn power users.
+- Reached out to Ishaan (Founder) and provided a live demo link for feedback.
+- Completed Interview 1 documentation.
+**What I learned:** 
+- Realized the importance of "Calculators as Content" for B2B lead generation.
+**Blockers:** Still waiting for 2nd and 3rd formal interview responses.
+**Plan for tomorrow:** Finalize all remaining markdown files and perform Lighthouse performance checks.
