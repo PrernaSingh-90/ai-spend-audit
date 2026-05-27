@@ -152,7 +152,7 @@ const SpendForm: React.FC = () => {
             </div>
             <div className="flex items-center gap-6">
               <span className="font-mono font-black text-blue-600 tracking-tighter">${entry.monthlySpend}/mo</span>
-              <button onClick={() => removeTool(entry.id)} className="text-red-300 hover:text-red-500 font-bold text-xs uppercase">Delete</button>
+              <button onClick={() => removeTool(entry.id)} className="text-red-700 hover:text-red-500 font-bold text-xs uppercase">Delete</button>
             </div>
           </div>
         ))}
