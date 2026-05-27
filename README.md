@@ -7,21 +7,30 @@ This is a professional web application built for startup founders and engineerin
 - **Live Deployed URL:** https://ai-spend-audit-ecru-xi.vercel.app/
 - **Demo Video:**
 
-### Screenshots
+### 📸 Visual Walkthrough
+
+#### 1. Main Dashboard
 ![Main Dashboard](./screenshots/dashboard.png)
+
+#### 2. Audit Analysis & Results
 ![Audit Results](./screenshots/results.png)
-![Mobile Responsive View](./screenshots/mobile.png)
 
-## ⚡ Quick Start
+#### 3. Mobile Responsive View
+![Mobile View](./screenshots/mobile.png)
 
-### 1. Install Dependencies
-npm install
 
-### 2. Run Locally
-npm run dev
+##  Quick Start
 
-### 3. Deploy
-npm run build
+1. **Install Dependencies:**
+   ```bash
+   npm install
+2. **Run Locally:**
+   ```Bash
+   npm run dev
+3. **Deploy:**
+    ```Bash
+  npm run build
+
 
 ### "Decisions" — 5 Key Trade-offs
 1. **TypeScript over Plain JavaScript:** I chose TypeScript to ensure type safety for the AuditEngine logic. Dealing with financial math required strict types for tool entries and savings results to prevent runtime bugs.

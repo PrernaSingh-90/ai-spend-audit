@@ -33,7 +33,7 @@ const LeadCapture: React.FC<Props> = ({ auditData }) => {
         {!shareUrl ? (
             <>
             <h3 className='text-xl font-bold mb-2'>Claim your full report</h3>
-            <p className='text-sm text-gray-500 mb-6'>Enter Your work email to get a shareable link and CFO-readt breakdown.</p>
+            <p className='text-sm text-gray-500 mb-6'>Enter Your work email to get a shareable link and CFO-ready breakdown.</p>
             <div className='flex flex-col sm:flex-row gap-3 max-w-md mx-auto'>
                 <input type="email" placeholder='name@company.com'
                 className='flex-1 p-3 rounded-xl border border-gray-200 outline-none focus:ring-2 focus:ring-blue-500'
