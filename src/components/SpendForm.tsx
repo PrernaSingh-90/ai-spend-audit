@@ -15,14 +15,15 @@ interface FormState {
 }
 
 const AI_TOOLS = {
-  'Cursor': ['Hobby', 'Pro', 'Business', 'Enterprise'],
-  'GitHub Copilot': ['Individual', 'Business', 'Enterprise'],
-  'Claude': ['Free', 'Pro', 'Max', 'Team', 'Enterprise', 'API Direct'],
-  'ChatGPT': ['Plus', 'Team', 'Enterprise', 'API Direct'],
-  'Anthropic API': ['Direct Usage'],
-  'OpenAI API': ['Direct Usage'],
-  'Gemini': ['Pro', 'Ultra', 'API'],
-  'Windsurf': ['Pro', 'Team', 'Enterprise']
+  'Cursor': ['Hobby', 'Individual', 'Teams', 'Enterprise'],
+  'GitHub Copilot': ['Free', 'Pro', 'Pro+'],
+  'Claude': ['Free', 'Pro', 'Max'],
+  'ChatGPT': ['Free', 'Go', 'Plus', 'Pro', 'Business'],
+  'Gemini': ['Google AI Plus', 'Google AI Pro', 'Google AI Ultra'],
+  'Anthropic API': ['Free', 'Pro', 'Max'],
+  'OpenAI API': ['GPT-5.5', 'GPT-5.4', 'GPT-5.4 mini', 'GPT-Realtime-2', 'GPT-Image-2'],
+  'Windsurf': ['Free', 'Pro', 'Max'],
+  'v0 (by Vercel)' : ['Free', 'Team', 'Business', 'Enterprise']
 };
 
 const USE_CASES = ['Coding', 'Writing', 'Data', 'Research', 'Mixed'];

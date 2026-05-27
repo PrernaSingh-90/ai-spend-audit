@@ -18,3 +18,7 @@ I used ChatGPT-4 for drafting complex Tailwind UI layouts and Claude 3.5 for ref
 - Design Sense: 8/10 (Dark mode dashboard for visual impact).
 - Problem Solving: 9/10 (Handled broken links and database sync issues).
 - Entrepreneurial Thinking: 9/10 (Conducted real-world LinkedIn research).
+
+
+### Research Note (2026 Timeline)
+During my research, I discovered that Google AI and Anthropic had updated their pricing models for 2026 (e.g., Google AI Ultra and Claude 4-series). I manually updated my database to ensure the audit provides the most current financial advice, catching discrepancies in standard online documentation.

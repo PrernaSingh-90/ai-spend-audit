@@ -5,7 +5,7 @@ This is a professional web application built for startup founders and engineerin
 
 ## Links & Media
 - **Live Deployed URL:** https://ai-spend-audit-ecru-xi.vercel.app/
-- **Demo Video:**
+- **Demo Video:** https://drive.google.com/file/d/19Vd1VOGs9XyYgcZSc7IaaPxn1v7CD4VA/view?usp=drivesdk
 
 ### 📸 Visual Walkthrough
 
@@ -22,12 +22,17 @@ This is a professional web application built for startup founders and engineerin
 ##  Quick Start
 
 1. **Install Dependencies:**
+
    ```bash
    npm install
+
 2. **Run Locally:**
+
    ```Bash
    npm run dev
+   
 3. **Deploy:**
+
     ```Bash
   npm run build
 
