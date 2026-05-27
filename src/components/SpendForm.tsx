@@ -36,7 +36,7 @@ const SpendForm: React.FC = () => {
   const [currentTool, setCurrentTool] = useState('Cursor');
   const [currentPlan, setCurrentPlan] = useState('Pro');
   const [currentSpend, setCurrentSpend] = useState(20);
-  const [currentSeats, setCurrentSeats] = useState(1); // Ab ye niche use hoga
+  const [currentSeats, setCurrentSeats] = useState(1); 
 
   useEffect(() => {
     localStorage.setItem('credex_audit_form', JSON.stringify(formData));
@@ -64,7 +64,8 @@ const SpendForm: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 p-6 bg-blue-50 rounded-2xl">
         <div>
           <label className="block text-sm font-bold text-gray-600 mb-2">Startup Team Size</label>
-          <input 
+          <input
+            aria-label="Startup Team Size" 
             type="number" 
             className="w-full p-2.5 rounded-xl border-none shadow-inner outline-none focus:ring-2 focus:ring-blue-400"
             value={formData.teamSize}
@@ -73,12 +74,12 @@ const SpendForm: React.FC = () => {
         </div>
         <div>
           <label className="block text-sm font-bold text-gray-600 mb-2">Primary Use Case</label>
-          <select 
+          <select
+            aria-label="Primary Use Case" 
             className="w-full p-2.5 rounded-xl border-none shadow-inner outline-none focus:ring-2 focus:ring-blue-400"
             value={formData.primaryUseCase}
             onChange={(e) => setFormData({...formData, primaryUseCase: e.target.value})}
           >
-      
             {USE_CASES.map(uc => <option key={uc} value={uc}>{uc}</option>)}
           </select>
         </div>
@@ -88,8 +89,9 @@ const SpendForm: React.FC = () => {
         <h3 className="text-lg font-bold mb-4 text-gray-700">Add Your Subscriptions:</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 items-end bg-gray-50 p-6 rounded-2xl border border-gray-200">
           <div>
-            <label className="text-[10px] font-black text-gray-400 uppercase">Tool</label>
-            <select 
+            <label className="text-[10px] font-black text-gray-600 uppercase">Tool</label>
+            <select
+              aria-label="Select AI Tool" 
               className="w-full p-2 mt-1 rounded-lg border bg-white text-sm"
               value={currentTool}
               onChange={(e) => {
@@ -101,8 +103,9 @@ const SpendForm: React.FC = () => {
             </select>
           </div>
           <div>
-            <label className="text-[10px] font-black text-gray-400 uppercase">Plan</label>
+            <label className="text-[10px] font-black text-gray-600 uppercase">Plan</label>
             <select 
+              aria-label="Select Subscription Plan"
               className="w-full p-2 mt-1 rounded-lg border bg-white text-sm"
               value={currentPlan}
               onChange={(e) => setCurrentPlan(e.target.value)}
@@ -112,8 +115,9 @@ const SpendForm: React.FC = () => {
           </div>
          
           <div>
-            <label className="text-[10px] font-black text-gray-400 uppercase">Seats</label>
-            <input 
+            <label className="text-[10px] font-black text-gray-600 uppercase">Seats</label>
+            <input
+              aria-label="Number of Seats" 
               type="number" 
               className="w-full p-2 mt-1 rounded-lg border bg-white text-sm"
               value={currentSeats}
@@ -121,8 +125,9 @@ const SpendForm: React.FC = () => {
             />
           </div>
           <div>
-            <label className="text-[10px] font-black text-gray-400 uppercase">Spend ($)</label>
-            <input 
+            <label className="text-[10px] font-black text-gray-600 uppercase">Spend ($)</label>
+            <input
+              aria-label="Monthly Spend in Dollars"
               type="number" 
               className="w-full p-2 mt-1 rounded-lg border bg-white text-sm"
               value={currentSpend}
@@ -143,7 +148,7 @@ const SpendForm: React.FC = () => {
           <div key={entry.id} className="flex justify-between items-center p-4 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-all">
             <div>
               <p className="font-black text-gray-800">{entry.toolName}</p>
-              <p className="text-[10px] text-gray-400 uppercase tracking-widest">{entry.plan} • {entry.seats} Seats</p>
+              <p className="text-[10px] text-gray-600 uppercase tracking-widest">{entry.plan} • {entry.seats} Seats</p>
             </div>
             <div className="flex items-center gap-6">
               <span className="font-mono font-black text-blue-600 tracking-tighter">${entry.monthlySpend}/mo</span>

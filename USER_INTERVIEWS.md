@@ -28,3 +28,19 @@
 
 ### What it changed about my design:
 - This was a huge insight! I initially thought everyone should switch to API, but Aditya's case showed me that 'Subscription Optimization' (saving tokens within a Pro plan) is just as important as 'API Switching.' I added a logic branch to my engine to suggest 'Efficiency Tools' for Pro users.
+
+---
+
+## Interview 3: Indrajith Ekanayake (Microsoft MVP)
+**Role:** Platform Engineering Consultant | Cloud Architect
+**Context:** Long-term user evaluating a jump from $20/mo to $100/mo plans.
+
+### Direct Quotes:
+- "$100/month is difficult to mentally justify—probably the highest software subscription I've paid."
+- "I'm highly confident the $20 limit won't meet my needs, but feels like I'm missing out."
+
+### The most surprising thing they said:
+- High-end users are suffering from "FOMO" (Fear Of Missing Out) but need s sateek (exact) math to "Mentally Justify" spending $1,200/year on a single AI tool.
+
+### What it changed about my design:
+- I implemented a specific logic for the "Claude Max" tier to show users exactly how much usage justifies the $100 jump vs. staying on Pro.
